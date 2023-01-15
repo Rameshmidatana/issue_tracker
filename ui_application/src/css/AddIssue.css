@@ -1,0 +1,12 @@
+.MuiGrid-root{
+    margin: 5px auto;
+}
+label#toolname-label, label#operator-label, label#type-label{
+    color:red;
+}
+.submit-button-group {
+    margin: 10px auto;
+}
+.add-issue-card{
+    padding : 5%;
+}

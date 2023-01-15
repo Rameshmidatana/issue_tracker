@@ -1,0 +1,22 @@
+{
+  "name": "services",
+  "version": "1.0.0",
+  "description": "backend services for mysql connectivity from reactJS",
+  "main": "services.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "services": "nodemon servicesMSSQL.js"
+  },
+  "author": "Ramesh",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "msnodesqlv8": "^3.0.1",
+    "mssql": "^9.0.1",
+    "mysql": "^2.18.1"
+  }
+}
